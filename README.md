@@ -33,11 +33,10 @@ Một ứng dụng di động đa nền tảng được xây dựng bằng Flutt
 
 ## 🛠️ Công nghệ & Thư viện sử dụng
 
-- **Framework:** Flutter `[ghi phiên bản Flutter của bạn, ví dụ: 3.22.0]`
-- **Ngôn ngữ:** Dart `[ghi phiên bản Dart của bạn, ví dụ: 3.4.0]`
+- **Framework:** Flutter
+- **Ngôn ngữ:** Dart
 - **Giao tiếp Bluetooth:**
-  - `flutter_blue_plus` (cho Bluetooth Low Energy) **HOẶC** `flutter_bluetooth_serial` (cho Bluetooth Classic/SPP). `[Hãy chọn đúng thư viện bạn đã sử dụng]`
-- **Quản lý trạng thái:** `[Provider / BLoC / GetX / Riverpod ... Ghi đúng state management bạn đã dùng]`
+- `flutter_bluetooth_serial` (cho Bluetooth Classic/SPP). 
 - **Quyền ứng dụng:** `permission_handler`
 
 ---
@@ -91,3 +90,4 @@ flutter run
 - [ ] Cho phép người dùng đặt tên cho từng relay (ví dụ: "Đèn phòng khách", "Quạt").
 - [ ] Thêm tính năng hẹn giờ bật/tắt.
 - [ ] Cải thiện giao diện người dùng với các animation và chủ đề sáng/tối.
+
