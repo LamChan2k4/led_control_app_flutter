@@ -1,0 +1,32 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter/Dart packages
+.packages
+.pub-cache/
+
+# Flutter/Dart IDE specific
+.dart_tool/
+.idea/
+.vscode/
+
+# Flutter build output
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Sensitive files
+# !! IMPORTANT !!
+# Add any file that contains API keys, passwords, or other secrets here.
+# For example:
+# secrets.dart
+# .env
